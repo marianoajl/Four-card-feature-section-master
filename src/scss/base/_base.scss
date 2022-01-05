@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+:root {
+
+  // PRIMARY COLORS
+
+  --bs-red: hsl(0, 78%, 62%);
+  --bs-cyan: hsl(180, 62%, 55%);
+  --bs-orange: hsl(34, 97%, 64%);
+  --bs-blue: hsl(212, 86%, 64%);
+
+  // NEUTRAL COLORS
+
+  --bs-darkblue: hsl(234, 12%, 34%);
+  --bs-grayishblue: hsl(229, 6%, 66%);
+  --bs-lightgray: hsl(0, 0%, 98%);
+  --bs-white: hsl(2, 100%, 100%);
+
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,106 @@
+{
+   "navMenu": [
+      {
+         "item_link": "/",
+         "link_title": "Home",
+         "item_name": "Home"
+      },
+      {
+         "item_link": "features.html",
+         "link_title": "Features",
+         "item_name": "Features"
+      },
+      {
+         "item_link": "pricing.html",
+         "link_title": "Pricing",
+         "item_name": "Pricing"
+      },
+      {
+         "item_link": "faqs.html",
+         "link_title": "FAQs",
+         "item_name": "FAQs"
+      },
+      {
+         "item_link": "/about.html",
+         "link_title": "About",
+         "item_name": "About"
+      }
+   ],
+   "footerItems": [
+      {
+         "footer_links": [
+            {
+               "item_title": "Features",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Cool stuff"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Random feature"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Team feature"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Stuff for developers"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Another one"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Last time"
+                  }
+               ]
+            },
+            {
+               "item_title": "Resources",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Resource"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Resource name"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Another resource"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Final resource"
+                  }
+               ]
+            },
+            {
+               "item_title": "About",
+               "pages": [
+                  {
+                     "item_link": "#",
+                     "item_name": "Team"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Locations"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Privacy"
+                  },
+                  {
+                     "item_link": "#",
+                     "item_name": "Terms"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

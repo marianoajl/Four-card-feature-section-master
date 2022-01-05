@@ -1,0 +1,38 @@
+/* -----------------------------------------------------------------------------*/
+/*  Estilos genericos de tarjetas  components/_cards-portal2
+/* -----------------------------------------------------------------------------*/
+
+[class^= "article"] {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin: 20px 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--bs-white);
+    box-shadow: 0 20px 30px rgba(14, 69, 78, 0.1);
+}
+
+.text-card, 
+.icon {
+    flex: 1;
+}
+
+.title {
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: var(--bs-darkblue);
+}
+
+.paragraph {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    letter-spacing: 0.3px;
+    color: var(--bs-grayishblue);
+}
+
+.icon {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+

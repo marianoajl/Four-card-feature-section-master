@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the navigation only component.
+// -----------------------------------------------------------------------------
+.bi {
+	fill: #fff;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+
+	&:focus {
+		color: #fff;
+		background-color: var(--bs-dark);
+		border-color: #fff;
+		box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+	}
+}

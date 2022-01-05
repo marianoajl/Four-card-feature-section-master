@@ -1,0 +1,59 @@
+{# extending #}
+{% extends "layout/_default.njk" %}
+<!-- Main CSS file por ahora lo ponemos aca pero tenemos que hacer un condicional en el layout creo, 
+veamos, porque desarrollo también tiene que cargar los estilos de cada página fuera del layout-->
+
+{# Bloque de estilos especificos de éstá página #}
+{% block css %}
+
+    <!-- El favicon pudo haber estado en el _default.njk  en el caso de que fuesen varias páginas 
+         de la misma empresa--> 
+    <link rel="icon" href="content/img/favicon-32x32.png" type="image/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="content/css/portal.css">
+{% endblock %}
+
+<!-- endbuild -->
+{% block content %}
+
+    <main class="main container d-flex flex-column justify-content-between align-items-center"> 
+
+        <header class="header container d-flex flex-column justify-content-center align-items-center">
+            <h2 class="title-one text-center"> Reliable, efficient delivery</h2> 
+            <h2 class="title-two text-center"> Powered by Technology</h2> 
+            <p class="main-paragraph text-center"> Our Artificial Intelligence powered tools use millions of project data points 
+            to ensure that your project is successful</p> 
+        </header>
+        <!-- Include cards section -->
+        <section class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="row">
+                <div class="left-part col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    {% block supervisor %}
+                        {% include "layout/partials/portal/_supervisor.njk" %}
+                    {% endblock %}
+                </div>
+                <div class="center col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    {% block teambuilder %}
+                        {% include "layout/partials/portal/_team-builder.njk" %}
+                    {% endblock %}
+                    {% block karma %}
+                        {% include "layout/partials/portal/_karma.njk" %}
+                    {% endblock %}
+                </div>
+                <div class="right-part col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                    {% block calculator %}
+                        {% include "layout/partials/portal/_calculator.njk" %}
+                    {% endblock %}
+                </div>
+            </div>
+        </section>
+    
+        {% block footer %}
+            {% include "layout/_footer.njk" %}
+        {% endblock %}
+   </main>
+{% endblock %}
+{% block js %}
+    {# Bloque de estilos especificos de éstá página #}
+   <script type="text/javascript" src="content/js/index.js"></script>
+{% endblock %}

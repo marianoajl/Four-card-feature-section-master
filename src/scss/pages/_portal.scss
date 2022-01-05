@@ -1,0 +1,83 @@
+/* -----------------------------------------------------------------------------*/
+/*  Estilos propios de la página "portal2"- pages/_portal2
+/* -----------------------------------------------------------------------------*/
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--bs-lightgray);
+}
+
+.main {
+    height: 100vh;
+
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0 20px;
+}
+
+.title-one {
+    font-size: 2.4em;
+    font-weight: 200;
+    color: var(--bs-darkblue);
+}
+
+.title-two {
+    margin-bottom: 20px;
+    font-size: 2.4em;
+    font-weight: 600;
+    color: var(--bs-darkblue);
+}
+
+.main-paragraph {
+    max-width: 500px;
+    color: var(--bs-grayishblue);
+}
+
+// Colores de los border-top de las cards.
+
+[class$= "supervisor"] {
+    border-top: 6px solid var(--bs-cyan);
+}
+
+[class$= "builder"] {
+    border-top: 6px solid var(--bs-red);
+}
+
+[class$= "karma"] {
+    border-top: 5px solid var(--bs-orange);
+}
+
+[class$= "calculator"] {
+    border-top: 5px solid var(--bs-blue);
+}
+
+//  RESPONSIVE FOR MOBILE
+
+@media only screen and (max-width: 501px) {
+    
+    .title-one,
+    .title-two {
+        font-size: 1.9em;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .title-one,
+    .title-two {
+        font-size: 1.47em;
+    }
+
+    .title-two {
+        margin-bottom: 30px;
+    }
+}
+

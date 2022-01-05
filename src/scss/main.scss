@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+// Base styles
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// Layout styles
+@import
+  'layout/navigation',
+  'layout/footer'; 

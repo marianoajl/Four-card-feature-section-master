@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+// Base styles
+@import
+  "base/base",
+  "base/fonts",
+  "base/typography";
+  
+// Layout styles
+@import
+  "pages/portal",
+  "components/cardportal",
+  "layout/footer";
+
+
+
