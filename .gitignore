@@ -2,7 +2,7 @@ node_modules
 package-lock.json
 .vscode
 src
-gulpfile.json
+gulpfile.js
 package.json
 package-lock.json
 yarn.lock
