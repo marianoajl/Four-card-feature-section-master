@@ -1,3 +1,8 @@
 node_modules
 package-lock.json
 .vscode
+src
+gulpfile.json
+package.json
+package-lock.json
+yarn.lock
